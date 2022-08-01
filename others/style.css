@@ -1,0 +1,111 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+   font-family: Arial;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),  url(places.jpg);
+
+}
+nav{
+    width:100%;
+    height:15vh;
+    background-color:transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+width: 25%;
+text-align: center;
+
+}
+nav .menu{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav .menu a{
+    width: 25%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav .menu a:hover{
+    color:aqua;
+}
+
+main{
+    width:100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section h3{
+    font-size: 40px;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  text-shadow: 1px 1px 2px black;
+}
+section p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 1px 5px black;
+    margin:10px 0 20px 0;
+}
+section a{
+    border-radius: 4px;
+    padding: 12px 30px;
+    font-size: 20x;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+    
+}
+section .btn1{
+    background: #fff;
+    color:#000000;
+}
+section .btn2{
+    background:aqua;
+    color:#000000;
+}
+.footer{
+    width: 100vw;
+    height:200px;
+    background: grey;
+    display: flex;
+    color: #efefef;
+}
+.footer div{
+    text-align: center;
+    margin:35px 0 20px 0;
+}
+.col-1{
+    flex-grow: 2;
+    font-weight: 300;
+}
+.col-1 p{
+    margin-top: 10px;
+}
+.col-2{
+    flex-grow: 2;
+    font-weight: 300;   
+}
+.col-2 p{
+    margin-top: 10px;
+}
